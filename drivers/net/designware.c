@@ -8,6 +8,8 @@
  * Designware ethernet IP driver for U-Boot
  */
 
+#define DEBUG
+
 #include <common.h>
 #include <clk.h>
 #include <dm.h>

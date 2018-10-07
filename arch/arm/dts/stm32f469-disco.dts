@@ -54,7 +54,7 @@
 	};
 
 	memory {
-		reg = <0x00000000 0x1000000>;
+		reg = <0x00000000 0x8000000>;
 	};
 
 	aliases {
@@ -142,4 +142,9 @@
 	pinctrl-0 = <&usbotg_fs_pins_a>;
 	pinctrl-names = "default";
 	status = "okay";
+};
+
+&mac {
+	status = "okay";
+	phy-mode = "rmii";
 };
